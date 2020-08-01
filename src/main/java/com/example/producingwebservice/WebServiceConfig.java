@@ -1,6 +1,6 @@
 package com.example.producingwebservice;
 
-import org.springframework.boot.web.servlet.ServletRegistationBean;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
     public ServletRegistrationBean messageDispatcherServlet(ApplicationContext applicationContext) {
         MessageDispatcherServlet servlet = new MessageDispatcherServlet();
         servlet.setApplicationContext(applicationContext);
-        servlet.setTransformWsdlLocation(true);
+        servlet.setTransformWsdlLocations(true);
         return new ServletRegistrationBean(servlet, "/ws/*");
     }
 
@@ -27,7 +27,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema countriesSchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("CountriesPort");
-        wsdl11Definition.setLocationUrl("/ws");
+        wsdl11Definition.setLocationUri("/ws");
         wsdl11Definition.setTargetNamespace("http://spring.io/guides/gs-producing-web-service");
         wsdl11Definition.setSchema(countriesSchema);
         return wsdl11Definition;
@@ -35,6 +35,6 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 
     @Bean
     public XsdSchema countriesSchema() {
-        return new SimpleXsdSchama(new ClassPathResource("countries.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("countries.xsd"));
     }
 }
