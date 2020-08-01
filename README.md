@@ -1,4 +1,4 @@
-#getCountryRequest web service
+# getCountryRequest web service  
 SOAP web service returning country's data: name, population, capital and currency.
 #Java version
 12.0.2+10
