@@ -1,6 +1,6 @@
 # getCountryRequest web service  
 SOAP web service returning country's data: name, population, capital and currency.
-#Java version
+# Java version  
 12.0.2+10
 
 Service can be invoked for 3 countries:
@@ -9,7 +9,6 @@ Service can be invoked for 3 countries:
 3. United Kingdom
 
 Request example:
-
 ```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
    <soapenv:Header/>
