@@ -20,6 +20,7 @@ Request example:
 </soapenv:Envelope>
 ```
 Response:
+```xml
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Header/>
    <SOAP-ENV:Body>
@@ -33,3 +34,4 @@ Response:
       </ns2:getCountryResponse>
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
+```
