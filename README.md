@@ -4,9 +4,10 @@ SOAP web service returning country's data: name, population, capital and currenc
 12.0.2+10
 
 Service can be invoked for 3 countries:
-1. Poland
-2. Spain
-3. United Kingdom
+1. Germany
+2. Poland
+3. Spain
+4. United Kingdom
 
 Request example:
 ```xml
