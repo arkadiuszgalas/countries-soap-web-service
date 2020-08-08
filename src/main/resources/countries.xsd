@@ -30,8 +30,9 @@
 
     <xs:simpleType name="currency">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="GBP"/>
+            <xs:enumeration value="ALL"/>
             <xs:enumeration value="EUR"/>
+            <xs:enumeration value="GBP"/>
             <xs:enumeration value="PLN"/>
         </xs:restriction>
     </xs:simpleType>
