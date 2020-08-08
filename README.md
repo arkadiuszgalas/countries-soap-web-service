@@ -3,7 +3,7 @@ SOAP web service returning country's data: name, population, capital and currenc
 # Java version  
 12.0.2+10
 
-Service can be invoked for 3 countries:
+Service can be invoked for 4 countries:
 1. Germany
 2. Poland
 3. Spain
