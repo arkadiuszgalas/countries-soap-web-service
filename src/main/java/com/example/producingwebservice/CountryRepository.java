@@ -15,6 +15,14 @@ public class CountryRepository {
 
     @PostConstruct
     public void initData() {
+        Country andorra = new Country();
+        andorra.setName("Andorra");
+        andorra.setCapital("Andorra la Vella");
+        andorra.setCurrency((Currency.EUR));
+        andorra.setPopulation(85458);
+
+        countries.put(andorra.getName(), andorra);
+
         Country albania = new Country();
         albania.setName("Albania");
         albania.setCapital("Tirana");
