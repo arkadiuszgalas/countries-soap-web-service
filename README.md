@@ -3,12 +3,13 @@ SOAP web service returning country's data: name, population, capital and currenc
 # Java version  
 12.0.2+10
 
-Service can be invoked for 5 countries:
+Service can be invoked for 6 countries:
 1. Albania
-2. Germany
-3. Poland
-4. Spain
-5. United Kingdom
+2. Andorra
+3. Germany
+4. Poland
+5. Spain
+6. United Kingdom
 
 Request example:
 ```xml
