@@ -6,7 +6,7 @@
     <xs:element name="getCountryRequest">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="name" type="xs:string"/>
+                <xs:element name="isocode" type="tns:isocode"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -25,6 +25,7 @@
             <xs:element name="population" type="xs:int"/>
             <xs:element name="capital" type="xs:string"/>
             <xs:element name="currency" type ="tns:currency"/>
+            <xs:element name="isocode" type="tns:isocode"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -34,6 +35,17 @@
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="GBP"/>
             <xs:enumeration value="PLN"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="isocode">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="AD"/>
+            <xs:enumeration value="AL"/>
+            <xs:enumeration value="DE"/>
+            <xs:enumeration value="PL"/>
+            <xs:enumeration value="ES"/>
+            <xs:enumeration value="GB"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
