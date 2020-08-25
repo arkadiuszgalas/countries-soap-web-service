@@ -16,7 +16,7 @@ public class CountryRepository {
     @PostConstruct
     public void initData() {
         Country andorra = new Country();
-        andorra.setName("Andorra");
+        andorra.setName("Principality of Andorra");
         andorra.setCapital("Andorra la Vella");
         andorra.setCurrency((Currency.EUR));
         andorra.setPopulation(85458);
@@ -25,7 +25,7 @@ public class CountryRepository {
         countries.put(andorra.getIsocode(), andorra);
 
         Country albania = new Country();
-        albania.setName("Albania");
+        albania.setName("Republic of Albania");
         albania.setCapital("Tirana");
         albania.setCurrency(Currency.ALL);
         albania.setPopulation(3020209);
@@ -34,7 +34,7 @@ public class CountryRepository {
         countries.put(albania.getIsocode(), albania);
 
         Country germany = new Country();
-        germany.setName("Germany");
+        germany.setName("Federal Republic of Germany");
         germany.setCapital("Berlin");
         germany.setCurrency(Currency.EUR);
         germany.setPopulation(80996685);
@@ -43,7 +43,7 @@ public class CountryRepository {
         countries.put(germany.getIsocode(), germany);
 
         Country poland = new Country();
-        poland.setName("Poland");
+        poland.setName("Republic of Poland");
         poland.setCapital("Warsaw");
         poland.setCurrency(Currency.PLN);
         poland.setPopulation(38346279);
@@ -52,7 +52,7 @@ public class CountryRepository {
         countries.put(poland.getIsocode(), poland);
 
         Country spain = new Country();
-        spain.setName("Spain");
+        spain.setName("Kingdom of Spain");
         spain.setCapital("Madrid");
         spain.setCurrency(Currency.EUR);
         spain.setPopulation(47737941);
@@ -61,7 +61,7 @@ public class CountryRepository {
         countries.put(spain.getIsocode(), spain);
 
         Country uk = new Country();
-        uk.setName("United Kingdom");
+        uk.setName("United Kingdom of Great Britain and Northern Ireland");
         uk.setCapital("London");
         uk.setCurrency(Currency.GBP);
         uk.setPopulation(63742977);
