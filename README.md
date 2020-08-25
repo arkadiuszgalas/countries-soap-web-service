@@ -1,5 +1,5 @@
 # getCountryRequest web service  
-SOAP web service returning country's data: name, population, capital, currency and country ISO 3166 code.
+SOAP web service returning country's data: official name, population, capital, currency and country ISO 3166 code.
 # Java version  
 12.0.2+10
 
@@ -25,17 +25,17 @@ Request example:
 Response:
 ```xml
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-    <SOAP-ENV:Header/>
-    <SOAP-ENV:Body>
-        <ns2:getCountryResponse xmlns:ns2="http://spring.io/guides/gs-producing-web-service">
-            <ns2:country>
-                <ns2:name>Andorra</ns2:name>
-                <ns2:population>85458</ns2:population>
-                <ns2:capital>Andorra la Vella</ns2:capital>
-                <ns2:currency>EUR</ns2:currency>
-                <ns2:isocode>AD</ns2:isocode>
-            </ns2:country>
-        </ns2:getCountryResponse>
-    </SOAP-ENV:Body>
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <ns2:getCountryResponse xmlns:ns2="http://spring.io/guides/gs-producing-web-service">
+         <ns2:country>
+            <ns2:name>Principality of Andorra</ns2:name>
+            <ns2:population>85458</ns2:population>
+            <ns2:capital>Andorra la Vella</ns2:capital>
+            <ns2:currency>EUR</ns2:currency>
+            <ns2:isocode>AD</ns2:isocode>
+         </ns2:country>
+      </ns2:getCountryResponse>
+   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```

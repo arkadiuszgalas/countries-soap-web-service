@@ -2,3 +2,7 @@
 version: 0.0.2-SNAPSHOT
 -change artifactId to countries-web-service
 -replace country's name with isocode in request
+
+25.08.2020
+version: 0.0.3-SNAPSHOT
+-change country's name to country's official name in response value
