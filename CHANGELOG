@@ -6,3 +6,7 @@ version: 0.0.2-SNAPSHOT
 25.08.2020
 version: 0.0.3-SNAPSHOT
 -change country's name to country's official name in response value
+
+24.09.2020
+version: 0.0.4-SNAPSHOT
+-add Austria to CountryRepository class
