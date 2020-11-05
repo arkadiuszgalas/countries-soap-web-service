@@ -10,3 +10,7 @@ version: 0.0.3-SNAPSHOT
 24.09.2020
 version: 0.0.4-SNAPSHOT
 -add Austria to CountryRepository class
+
+4.11.2020
+version: 0.0.5-SNAPSHOT
+-add Belgium to CountryRepository class

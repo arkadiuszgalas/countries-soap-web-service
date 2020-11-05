@@ -7,10 +7,11 @@ Service can be invoked for 7 ISO 3166 codes:
 1. AL (Albania)
 2. AD (Andorra)
 3. AT (Austria)
-4. DE (Germany)
-5. PL (Poland)
-6. ES (Spain)
-7. GB (United Kingdom)
+4. BE (Belgium)
+5. DE (Germany)
+6. PL (Poland)
+7. ES (Spain)
+8. GB (United Kingdom)
 
 Request example:
 ```xml
