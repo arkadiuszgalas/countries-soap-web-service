@@ -3,15 +3,16 @@ SOAP web service returning country's data: official name, population, capital, c
 # Java version  
 12.0.2+10
 
-Service can be invoked for 7 ISO 3166 codes:
+Service can be invoked for 9 ISO 3166 codes:
 1. AL (Albania)
 2. AD (Andorra)
 3. AT (Austria)
 4. BE (Belgium)
-5. DE (Germany)
-6. PL (Poland)
-7. ES (Spain)
-8. GB (United Kingdom)
+5. BY (Belarus)
+6. DE (Germany)
+7. PL (Poland)
+8. ES (Spain)
+9. GB (United Kingdom)
 
 Request example:
 ```xml

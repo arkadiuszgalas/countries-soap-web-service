@@ -51,6 +51,15 @@ public class CountryRepository {
 
         countries.put(belgium.getIsocode(), belgium);
 
+        Country belarus = new Country();
+        belarus.setName("Republic of Belarus");
+        belarus.setCapital("Minsk");
+        belarus.setCurrency(Currency.BYN);
+        belarus.setPopulation(9408400);
+        belarus.setIsocode("BY");
+
+        countries.put(belarus.getIsocode(), belarus);
+
         Country germany = new Country();
         germany.setName("Federal Republic of Germany");
         germany.setCapital("Berlin");
