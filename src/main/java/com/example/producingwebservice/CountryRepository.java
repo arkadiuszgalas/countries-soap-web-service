@@ -60,6 +60,15 @@ public class CountryRepository {
 
         countries.put(belarus.getIsocode(), belarus);
 
+        Country bosnia = new Country();
+        bosnia.setName("Republic of Bosnia and Herzegovina");
+        bosnia.setCapital("Sarajevo");
+        bosnia.setCurrency(Currency.BAM);
+        bosnia.setPopulation(3871643);
+        bosnia.setIsocode("BA");
+
+        countries.put(bosnia.getIsocode(), bosnia);
+
         Country germany = new Country();
         germany.setName("Federal Republic of Germany");
         germany.setCapital("Berlin");
