@@ -22,3 +22,7 @@ version: 0.0.6-SNAPSHOT
 6.12.2020
 version: 0.0.7-SNAPSHOT
 -add Bosnia and Herzegovina to CountryRepository.class
+
+13.12.2020
+version: 0.0.8-SNAPSHOT
+-add log4j2 logging configuration
