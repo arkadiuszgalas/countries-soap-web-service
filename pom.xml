@@ -12,10 +12,10 @@
          </parent>
 
          <groupId>com.example</groupId>
-         <artifactId>countries-web-service</artifactId>
+         <artifactId>countries-soap-web-service</artifactId>
          <version>0.0.8-SNAPSHOT</version>
-         <name>countries-web-service</name>
-         <description>Demo project for Spring Boot</description>
+         <name>countries-soap-web-service</name>
+         <description>Simple SOAP project returning country data</description>
 
          <properties>
              <java.version>1.8</java.version>
