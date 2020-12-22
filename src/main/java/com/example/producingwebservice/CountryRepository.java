@@ -69,6 +69,15 @@ public class CountryRepository {
 
         countries.put(bosnia.getIsocode(), bosnia);
 
+        Country bulgaria = new Country();
+        bulgaria.setName("Republic of Bulgaria");
+        bulgaria.setCapital("Sofia");
+        bulgaria.setCurrency(Currency.BGN);
+        bulgaria.setPopulation(6924716);
+        bulgaria.setIsocode("BG");
+
+        countries.put(bulgaria.getIsocode(), bulgaria);
+
         Country germany = new Country();
         germany.setName("Federal Republic of Germany");
         germany.setCapital("Berlin");

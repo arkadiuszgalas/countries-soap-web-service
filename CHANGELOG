@@ -26,3 +26,7 @@ version: 0.0.7-SNAPSHOT
 13.12.2020
 version: 0.0.8-SNAPSHOT
 -add log4j2 logging configuration
+
+21.12.2020
+version: 0.0.9-SNAPSHOT
+-add Bulgaria to CountryRepository.class

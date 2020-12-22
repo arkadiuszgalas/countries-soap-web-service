@@ -33,6 +33,7 @@
         <xs:restriction base="xs:string">
             <xs:enumeration value="ALL"/>
             <xs:enumeration value="BAM"/>
+            <xs:enumeration value="BGN"/>
             <xs:enumeration value="BYN"/>
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="GBP"/>
