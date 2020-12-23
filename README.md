@@ -1,8 +1,9 @@
 # getCountryRequest web service  
 SOAP web service returning country's data: official name, population, capital, currency and country ISO 3166 code.
 # Tested with Java versions
-11.0.9
-12.0.2
+Java<TM> SE Runtime Environment 18.9 <build 11.0.9+7-LTS>
+
+Java<TM> SE Runtime Environment <build 12.0.2+10>
 
 Service can be invoked for 11 ISO 3166 codes:
 1. AL (Albania)
