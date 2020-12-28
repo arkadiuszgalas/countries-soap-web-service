@@ -37,6 +37,7 @@
             <xs:enumeration value="BYN"/>
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="GBP"/>
+            <xs:enumeration value="HRK"/>
             <xs:enumeration value="PLN"/>
         </xs:restriction>
     </xs:simpleType>

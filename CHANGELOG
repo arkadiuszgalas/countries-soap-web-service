@@ -30,3 +30,7 @@ version: 0.0.8-SNAPSHOT
 21.12.2020
 version: 0.0.9-SNAPSHOT
 -add Bulgaria to CountryRepository.class
+
+28.12.2020
+version: 0.1.0-SNAPSHOT
+-add Croatia to CountryRepository.class
