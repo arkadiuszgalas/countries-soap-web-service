@@ -87,6 +87,15 @@ public class CountryRepository {
 
         countries.put(croatia.getIsocode(), croatia);
 
+        Country montenegro = new Country();
+        montenegro.setName("Montenegro");
+        montenegro.setCapital("Podgorica");
+        montenegro.setCurrency(Currency.EUR);
+        montenegro.setPopulation(650036);
+        montenegro.setIsocode("ME");
+
+        countries.put(montenegro.getIsocode(), montenegro);
+
         Country germany = new Country();
         germany.setName("Federal Republic of Germany");
         germany.setCapital("Berlin");

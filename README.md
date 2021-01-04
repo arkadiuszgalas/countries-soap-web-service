@@ -5,7 +5,7 @@ Java<TM> SE Runtime Environment 18.9 <build 11.0.9+7-LTS>
 
 Java<TM> SE Runtime Environment <build 12.0.2+10>
 
-Service can be invoked for 12 ISO 3166 codes:
+Service can be invoked for 13 ISO 3166 codes:
 1. AL (Albania)
 2. AD (Andorra)
 3. AT (Austria)
@@ -14,10 +14,11 @@ Service can be invoked for 12 ISO 3166 codes:
 6. BA (Bosnia and Herzegovina)
 7. BG (Bulgaria)
 8. HR (Croatia)
-9. DE (Germany)
-10. PL (Poland)
-11. ES (Spain)
-12. GB (United Kingdom)
+9. ME (Montenegro)
+10. DE (Germany)
+11. PL (Poland)
+12. ES (Spain)
+13. GB (United Kingdom)
 
 Request example:
 ```xml
