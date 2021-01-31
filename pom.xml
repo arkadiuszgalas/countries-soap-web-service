@@ -13,7 +13,7 @@
 
          <groupId>com.example</groupId>
          <artifactId>countries-soap-web-service</artifactId>
-         <version>0.1.1-SNAPSHOT</version>
+         <version>0.1.2-SNAPSHOT</version>
          <name>countries-soap-web-service</name>
          <description>Simple SOAP project returning country data</description>
 

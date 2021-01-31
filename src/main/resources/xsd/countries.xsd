@@ -35,6 +35,7 @@
             <xs:enumeration value="BAM"/>
             <xs:enumeration value="BGN"/>
             <xs:enumeration value="BYN"/>
+            <xs:enumeration value="CZK"/>
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="GBP"/>
             <xs:enumeration value="HRK"/>

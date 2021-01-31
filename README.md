@@ -14,11 +14,12 @@ Service can be invoked for 13 ISO 3166 codes:
 6. BA (Bosnia and Herzegovina)
 7. BG (Bulgaria)
 8. HR (Croatia)
-9. ME (Montenegro)
-10. DE (Germany)
-11. PL (Poland)
-12. ES (Spain)
-13. GB (United Kingdom)
+9. CZ (Czech)
+10. ME (Montenegro)
+11. DE (Germany)
+12. PL (Poland)
+13. ES (Spain)
+14. GB (United Kingdom)
 
 Request example:
 ```xml

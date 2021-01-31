@@ -87,6 +87,15 @@ public class CountryRepository {
 
         countries.put(croatia.getIsocode(), croatia);
 
+        Country czech = new Country();
+        czech.setName("Czech Republic");
+        czech.setCapital("Prague");
+        czech.setCurrency(Currency.CZK);
+        czech.setPopulation(10627448);
+        czech.setIsocode("CZ");
+
+        countries.put(czech.getIsocode(), czech);
+
         Country montenegro = new Country();
         montenegro.setName("Montenegro");
         montenegro.setCapital("Podgorica");
