@@ -105,6 +105,15 @@ public class CountryRepository {
 
         countries.put(montenegro.getIsocode(), montenegro);
 
+        Country denmark = new Country();
+        denmark.setName("Kingdom of Denmark");
+        denmark.setCapital("Copenhagen");
+        denmark.setCurrency(Currency.DKK);
+        denmark.setPopulation(5569077);
+        denmark.setIsocode("DK");
+
+        countries.put(denmark.getIsocode(), denmark);
+
         Country germany = new Country();
         germany.setName("Federal Republic of Germany");
         germany.setCapital("Berlin");
